@@ -1,7 +1,9 @@
 <template>
 <!-- /*Toda parte HTML*/ -->
     <header>
+      <h1>
         <img src="../assets/logo.png" alt="">
+      </h1>
     </header>
 </template>
 

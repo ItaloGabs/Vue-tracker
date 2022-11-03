@@ -6,23 +6,7 @@
             </div>
         </div>
         <div class="column">
-            <div class="is-flex is-align-items-center is-justify-content-space-between">
-                <section>
-                    <strong>00:00</strong>
-                </section>
-                <button class="button">
-                    <span class="icon">
-                        <i class="fas fa-play"></i>
-                    </span>
-                    <span>play</span>
-                </button>
-                <button class="button">
-                    <span class="icon">
-                        <i class="fas fa-stop"></i>
-                    </span>
-                    <span>stop</span>
-                </button>
-            </div>
+            <Temporizador></Temporizador>
         </div>
 
     </div>
@@ -30,9 +14,13 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import Temporizador from './temporizador.vue';
 
 export default defineComponent({
-  name: 'Formulario-vue'
+    name: 'Formulario-vue',
+    components: {
+        Temporizador
+    }
 });
 </script>
 

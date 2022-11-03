@@ -1,10 +1,10 @@
 <template>
   <main class="columns is-gapless is-multiline">
-    <div class="colums is-one-quarter">
+    <div class="column is-one-quarter">
       <BarraLateral/>
       
     </div>
-    <div class="colums is-three-quarter">
+    <div class="column is-three-quarter">
       <Formulario/>
 
     </div>
